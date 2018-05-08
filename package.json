@@ -107,6 +107,16 @@
                 "embeddedLanguages": {
                     "meta.embedded.block.haskell": "haskell"
                 }
+            },
+            {
+                "scopeName": "markdown.cabal.codeblock",
+                "path": "./syntaxes/codeblock-cabal.json",
+                "injectTo": [
+                    "text.html.markdown"
+                ],
+                "embeddedLanguages": {
+                    "meta.embedded.block.cabal": "cabal"
+                }
             }
         ]
     },
